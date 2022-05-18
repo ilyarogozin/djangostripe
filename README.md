@@ -34,6 +34,7 @@ docker-compose up -d --build
 
 - Выполните миграции:
 ```
+docker-compose exec web python manage.py makemigrations
 docker-compose exec web python manage.py migrate
 ```
 
@@ -58,3 +59,11 @@ http://localhost/item/1/
 
 ## Админка:
 http://localhost/admin/
+
+## Проект запущен на удалённом сервере, адреса для тестирования:
+http://51.250.70.25/item/1/
+http://51.250.70.25/admin/
+
+### Логин и пароль админки:
+login: admin
+password: admin
