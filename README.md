@@ -61,9 +61,9 @@ http://localhost/item/1/
 http://localhost/admin/
 
 ## Проект запущен на удалённом сервере, адреса для тестирования:
-http://51.250.70.25/item/1/
-http://51.250.70.25/admin/
+- http://51.250.70.25/item/1/
+- http://51.250.70.25/admin/
 
 ### Логин и пароль админки:
-login: admin
-password: admin
+- login: admin
+- password: admin
